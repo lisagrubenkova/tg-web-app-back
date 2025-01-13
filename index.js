@@ -3,7 +3,7 @@ const express = require('express')
 const cors = require('cors')
 
 const token = `7661128414:AAGZv8IZ5jpG1zOpuF4wMybtSoWYN-Wsqwk`
-const webAppUrl = `https://precious-moxie-61608e.netlify.app/`
+const webAppUrl = `http://precious-moxie-61608e.netlify.app/`
 
 const bot = new TelegramBot(token, {polling: true});
 const app = express()
